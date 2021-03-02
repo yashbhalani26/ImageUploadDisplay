@@ -39,6 +39,7 @@ public class EmployeeController {
 
 	@GetMapping(value = { "/", "/index", "/home", "/default" })
 	public String homePage() {
+		System.err.println("HI ");
 		return "index";
 	}
 
